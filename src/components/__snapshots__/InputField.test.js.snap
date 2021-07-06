@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The InputField component Snapshot 1`] = `
+<form
+  aria-label="form"
+  className="main__form__todo"
+  onSubmit={[Function]}
+>
+  <label
+    className="main__form__label"
+  >
+    Title
+    <input
+      className="main__form__text-input"
+      name="Title"
+      onChange={[Function]}
+      placeholder="Enter a title.."
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    className="main__form__label"
+  >
+    Description
+    <input
+      className="main__form__text-input"
+      name="Description"
+      onChange={[Function]}
+      placeholder="Enter a description.."
+      type="text"
+      value=""
+    />
+  </label>
+  <input
+    id="input__submit"
+    type="submit"
+    value="Add"
+  />
+</form>
+`;

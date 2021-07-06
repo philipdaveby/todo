@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The TodoList component Snapshot 1`] = `
+<main
+  className="main__todolist"
+>
+  <section
+    className="main__form"
+  >
+    <h2
+      className="main__form__h2"
+    >
+      Register new ToDo
+    </h2>
+    <form
+      aria-label="form"
+      className="main__form__todo"
+      onSubmit={[Function]}
+    >
+      <label
+        className="main__form__label"
+      >
+        Title
+        <input
+          className="main__form__text-input"
+          name="Title"
+          onChange={[Function]}
+          placeholder="Enter a title.."
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="main__form__label"
+      >
+        Description
+        <input
+          className="main__form__text-input"
+          name="Description"
+          onChange={[Function]}
+          placeholder="Enter a description.."
+          type="text"
+          value=""
+        />
+      </label>
+      <input
+        id="input__submit"
+        type="submit"
+        value="Add"
+      />
+    </form>
+    <p
+      className="main__form__error-message"
+    />
+  </section>
+  <section
+    className="main__todo"
+  >
+    <ul
+      className="main__todo__cards"
+    >
+      
+    </ul>
+  </section>
+</main>
+`;
